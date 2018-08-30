@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="3" type="collection">
+        <element label="This is another field" max_length="40" name="fastone" type="audio"/>
+        <element label="fsaasfgsag" max_length="40" name="fsaasfgsag" type="string"/>
+        <element choice="1" label="just wanna know if this works" max_length="40" name="just_wanna_know_if_this_works" type="choice">
+            <choice/>
+        </element>
+        <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element label="wfr" max_length="40" name="wfr" type="string"/>
+    </element>
+</database>
